@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<!-- Report -->
+<!-- chapter 1 : History of siwes, biography of siwes placement -->
+<!-- chapter 2: what you learned during siwes. -->
+<!-- chapter 3: challenges and problems faced during siwes. -->
+<!-- chapter 4: conculsion and recommendation. -->
+
+<body>
+    <section>
+        <div class="navbar">
+            <div class="navbar-logo">
+                <a href="#" class="logo">Yusuf.</a>
+                <i class="menu-bar" id="menu-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </i>
+            </div>
+            <div class="nav-items" id="nav-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li> <a href="#project">Projects</a></li>
+                    <li> <a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="home">
+        <div class="navbar-menu">
+            <div class="nav-body">
+                <div class="content-container">
+                    <div class="text-content">
+                        <!-- <h1>Welcome to my Portfolio </h1> -->
+                        <h3>Hi, I'm Yusuf Abdulmumeen </h3>
+                        <h4>Front-end Developer</h4>
+                        <p>A passionate Developer dedicated to crafting seamless and visually appealing
+                            user experiences. With a keen eye for design and functionality, i bring ideas to life
+                            through clean and efficient code.</p>
+                        <div class="btn-box">
+                            <a href="mailto:mumeeny14@gmail.com">Let's Make Magic.</a>
+                        </div>
+                        <!-- <a href="#"><button class="btn-box">Let's talk</button></a> -->
+                    </div>
+                    <div class="profile-picture">
+                        <img src="img/IMG_20241217_125946.jpg" alt="">
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/IMG_20241217_125946.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Hi there! i'm an enthusiastic front-end developer and an undergraduate student with a passion for
+                crafting engaging and interactive web expericences. I focus on building sleek,user-friendly interfaces
+                using modern web technologies like Html,Css,Javascript,and front-end frameworks. With a strong eye for
+                detail and a commitment to innovation, I enjoy transforming ideas into seamless digital solutions.
+                Constantly learning and evolving, I stay up to date with the latest trends to ensure
+                high-performance,visually appealing websites. Let's collaborate and bring great ideas to life.</p>
+            <div class="btn-boxs">
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services" id="project">
+        <h1 class="heading">Projects</h1>
+        <div class="service-container">
+            <div class="service-card">
+                <img src="img/pexels-fauxels-3183153.jpg" alt="">
+                <h2>Project 1 </h2>
+                <p>Landing page(figma).</p>
+                <a href="https://capable-swan-821857.netlify.app/" class="project-btn">Live Demo</a>
+            </div>
+            <div class="service-card">
+                <img src="img/pexels-pixabay-270408.jpg" alt="">
+                <h2>Project 2</h2>
+                <p>Calculator(Javascript).
+                </p>
+                <a href="https://stalwart-lolly-70cc1e.netlify.app/" class="project-btn">Live Demo</a>
+            </div>
+            <div class="service-card">
+                <img src="img/pexels-pixabay-372787.jpg" alt="">
+                <h2>Project 3 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nemo perferendis ipsa ea amet
+                    unde est dolores id, similique nesciunt, deserunt iure quaerat possimus iusto odio placea.
+                </p>
+                <a href="#" class="project-btn">Live Demo</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact <span>Me</span></h1>
+        <div class="contact-container">
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone number" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copyYusuf Abdulmumeen 2024| All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('menu-bar').addEventListener('click', function () {
+            document.getElementById('nav-items').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
